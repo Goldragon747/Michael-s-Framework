@@ -1,0 +1,68 @@
+@import 'border';
+$space: 50px;
+@mixin container-margin{
+    margin:0px 30px;
+}
+.container {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    z-index: -5;
+    position: relative;
+}
+.container-sm{
+    @extend .container;
+    width:95%;
+}
+.container-md{
+    @extend .container;
+    width:90%;
+}
+.container-lg{
+    @extend .container;
+    width:80%;
+}
+.container-xl{
+    @extend .container;
+    width:75%;
+}
+.container-xxl{
+    @extend .container;
+    width:50%;
+}
+.container-decorated {
+    @extend .border-sides;
+    background: $white;
+    @extend .shadow;
+}
+.space-top {
+    margin-top: $space;
+}
+.space-bottom {
+    margin-bottom: $space;
+}
+.space-left {
+    margin-left: $space;
+}
+.space-right {
+    margin-right: $space;
+}
+.space {
+    margin: $space;
+}
+.padding {
+    padding:$space;
+}
+.no-space {
+    margin:0;
+}
+.no-padding {
+    padding:0;
+}
+.center {
+    display:block;
+    margin:0 auto;
+}
+.center-text {
+    text-align:center;
+}

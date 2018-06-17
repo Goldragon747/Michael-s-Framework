@@ -1,0 +1,23 @@
+@import 'flex';
+@import '../global/global';
+$column-class-name: 'col';
+@for $col-num from 1 through 12 {
+    .#{$column-class-name + '-' + $col-num} {
+        @include flex-item;
+        flex: ($col-num / 12) * 100;
+    }
+    .#{$column-class-name + '-' + $col-num}:first-child {
+        margin-left: 0;
+    }
+    .#{$column-class-name + '-' + $col-num}:last-child {
+        margin-right: 0;
+    }
+    @media all and (max-width:800px){
+        .#{$column-class-name + '-' + $col-num}:first-child {
+            margin-left: 15px;
+        }
+        .#{$column-class-name + '-' + $col-num}:last-child {
+            margin-right: 15px;
+        }
+    }
+}

@@ -1,0 +1,631 @@
+// Red
+$google-colors-red: #F44336;
+$google-colors-red-50: #FFEBEE;
+$google-colors-red-100: #FFCDD2;
+$google-colors-red-200: #EF9A9A;
+$google-colors-red-300: #E57373;
+$google-colors-red-400: #EF5350;
+$google-colors-red-500: $google-colors-red;
+$google-colors-red-600: #E53935;
+$google-colors-red-700: #D32F2F;
+$google-colors-red-800: #C62828;
+$google-colors-red-900: #B71C1C;
+$google-colors-red-A100: #FF8A80;
+$google-colors-red-A200: #FF5252;
+$google-colors-red-A400: #FF1744;
+$google-colors-red-A700: #D50000;
+
+$google-map-red: ('red': $google-colors-red,
+                  'red-50': $google-colors-red-50,
+                  'red-100': $google-colors-red-100,
+                  'red-200': $google-colors-red-200,
+                  'red-300': $google-colors-red-300,
+                  'red-400': $google-colors-red-400,
+                  'red-500': $google-colors-red-500,
+                  'red-600': $google-colors-red-600,
+                  'red-700': $google-colors-red-700,
+                  'red-800': $google-colors-red-800,
+                  'red-900': $google-colors-red-900,
+                  'red-A100': $google-colors-red-A100,
+                  'red-A200': $google-colors-red-A200,
+                  'red-A400': $google-colors-red-A400,
+                  'red-A700': $google-colors-red-A700 );
+
+// Pink
+$google-colors-pink: #E91E63;
+$google-colors-pink-50: #FCE4EC;
+$google-colors-pink-100: #F8BBD0;
+$google-colors-pink-200: #F48FB1;
+$google-colors-pink-300: #F06292;
+$google-colors-pink-400: #EC407A;
+$google-colors-pink-500: $google-colors-pink;
+$google-colors-pink-600: #D81B60;
+$google-colors-pink-700: #C2185B;
+$google-colors-pink-800: #AD1457;
+$google-colors-pink-900: #880E4F;
+$google-colors-pink-A100: #FF80AB;
+$google-colors-pink-A200: #FF4081;
+$google-colors-pink-A400: #F50057;
+$google-colors-pink-A700: #C51162;
+
+$google-map-pink: ('pink': $google-colors-pink,
+                  'pink-50': $google-colors-pink-50,
+                  'pink-100': $google-colors-pink-100,
+                  'pink-200': $google-colors-pink-200,
+                  'pink-300': $google-colors-pink-300,
+                  'pink-400': $google-colors-pink-400,
+                  'pink-500': $google-colors-pink-500,
+                  'pink-600': $google-colors-pink-600,
+                  'pink-700': $google-colors-pink-700,
+                  'pink-800': $google-colors-pink-800,
+                  'pink-900': $google-colors-pink-900,
+                  'pink-A100': $google-colors-pink-A100,
+                  'pink-A200': $google-colors-pink-A200,
+                  'pink-A400': $google-colors-pink-A400,
+                  'pink-A700': $google-colors-pink-A700 );
+
+// Purple
+$google-colors-purple: #9C27B0;
+$google-colors-purple-50: #F3E5F5;
+$google-colors-purple-100: #E1BEE7;
+$google-colors-purple-200: #CE93D8;
+$google-colors-purple-300: #BA68C8;
+$google-colors-purple-400: #AB47BC;
+$google-colors-purple-500: $google-colors-purple;
+$google-colors-purple-600: #8E24AA;
+$google-colors-purple-700: #7B1FA2;
+$google-colors-purple-800: #6A1B9A;
+$google-colors-purple-900: #4A148C;
+$google-colors-purple-A100: #EA80FC;
+$google-colors-purple-A200: #E040FB;
+$google-colors-purple-A400: #D500F9;
+$google-colors-purple-A700: #AA00FF;
+
+$google-map-purple: ('purple': $google-colors-purple,
+                  'purple-50': $google-colors-purple-50,
+                  'purple-100': $google-colors-purple-100,
+                  'purple-200': $google-colors-purple-200,
+                  'purple-300': $google-colors-purple-300,
+                  'purple-400': $google-colors-purple-400,
+                  'purple-500': $google-colors-purple-500,
+                  'purple-600': $google-colors-purple-600,
+                  'purple-700': $google-colors-purple-700,
+                  'purple-800': $google-colors-purple-800,
+                  'purple-900': $google-colors-purple-900,
+                  'purple-A100': $google-colors-purple-A100,
+                  'purple-A200': $google-colors-purple-A200,
+                  'purple-A400': $google-colors-purple-A400,
+                  'purple-A700': $google-colors-purple-A700 );
+
+// Deep-Purple
+$google-colors-deep-purple: #673AB7;
+$google-colors-deep-purple-50: #EDE7F6;
+$google-colors-deep-purple-100: #D1C4E9;
+$google-colors-deep-purple-200: #B39DDB;
+$google-colors-deep-purple-300: #9575CD;
+$google-colors-deep-purple-400: #7E57C2;
+$google-colors-deep-purple-500: $google-colors-deep-purple;
+$google-colors-deep-purple-600: #5E35B1;
+$google-colors-deep-purple-700: #512DA8;
+$google-colors-deep-purple-800: #4527A0;
+$google-colors-deep-purple-900: #311B92;
+$google-colors-deep-purple-A100: #B388FF;
+$google-colors-deep-purple-A200: #7C4DFF;
+$google-colors-deep-purple-A400: #651FFF;
+$google-colors-deep-purple-A700: #6200EA;
+
+$google-map-deep-purple: ('deep-purple': $google-colors-deep-purple,
+                  'deep-purple-50': $google-colors-deep-purple-50,
+                  'deep-purple-100': $google-colors-deep-purple-100,
+                  'deep-purple-200': $google-colors-deep-purple-200,
+                  'deep-purple-300': $google-colors-deep-purple-300,
+                  'deep-purple-400': $google-colors-deep-purple-400,
+                  'deep-purple-500': $google-colors-deep-purple-500,
+                  'deep-purple-600': $google-colors-deep-purple-600,
+                  'deep-purple-700': $google-colors-deep-purple-700,
+                  'deep-purple-800': $google-colors-deep-purple-800,
+                  'deep-purple-900': $google-colors-deep-purple-900,
+                  'deep-purple-A100': $google-colors-deep-purple-A100,
+                  'deep-purple-A200': $google-colors-deep-purple-A200,
+                  'deep-purple-A400': $google-colors-deep-purple-A400,
+                  'deep-purple-A700': $google-colors-deep-purple-A700 );
+
+// Indigo
+$google-colors-indigo: #3F51B5;
+$google-colors-indigo-50: #E8EAF6;
+$google-colors-indigo-100: #C5CAE9;
+$google-colors-indigo-200: #9FA8DA;
+$google-colors-indigo-300: #7986CB;
+$google-colors-indigo-400: #5C6BC0;
+$google-colors-indigo-500: $google-colors-indigo;
+$google-colors-indigo-600: #3949AB;
+$google-colors-indigo-700: #303F9F;
+$google-colors-indigo-800: #283593;
+$google-colors-indigo-900: #1A237E;
+$google-colors-indigo-A100: #8C9EFF;
+$google-colors-indigo-A200: #536DFE;
+$google-colors-indigo-A400: #3D5AFE;
+$google-colors-indigo-A700: #304FFE;
+
+$google-map-indigo: ('indigo': $google-colors-indigo,
+                  'indigo-50': $google-colors-indigo-50,
+                  'indigo-100': $google-colors-indigo-100,
+                  'indigo-200': $google-colors-indigo-200,
+                  'indigo-300': $google-colors-indigo-300,
+                  'indigo-400': $google-colors-indigo-400,
+                  'indigo-500': $google-colors-indigo-500,
+                  'indigo-600': $google-colors-indigo-600,
+                  'indigo-700': $google-colors-indigo-700,
+                  'indigo-800': $google-colors-indigo-800,
+                  'indigo-900': $google-colors-indigo-900,
+                  'indigo-A100': $google-colors-indigo-A100,
+                  'indigo-A200': $google-colors-indigo-A200,
+                  'indigo-A400': $google-colors-indigo-A400,
+                  'indigo-A700': $google-colors-indigo-A700 );
+
+// Blue
+$google-colors-blue: #2196F3;
+$google-colors-blue-50: #E3F2FD;
+$google-colors-blue-100: #BBDEFB;
+$google-colors-blue-200: #90CAF9;
+$google-colors-blue-300: #64B5F6;
+$google-colors-blue-400: #42A5F5;
+$google-colors-blue-500: $google-colors-blue;
+$google-colors-blue-600: #1E88E5;
+$google-colors-blue-700: #1976D2;
+$google-colors-blue-800: #1565C0;
+$google-colors-blue-900: #0D47A1;
+$google-colors-blue-A100: #82B1FF;
+$google-colors-blue-A200: #448AFF;
+$google-colors-blue-A400: #2979FF;
+$google-colors-blue-A700: #2962FF;
+
+$google-map-blue: ('blue': $google-colors-blue,
+                  'blue-50': $google-colors-blue-50,
+                  'blue-100': $google-colors-blue-100,
+                  'blue-200': $google-colors-blue-200,
+                  'blue-300': $google-colors-blue-300,
+                  'blue-400': $google-colors-blue-400,
+                  'blue-500': $google-colors-blue-500,
+                  'blue-600': $google-colors-blue-600,
+                  'blue-700': $google-colors-blue-700,
+                  'blue-800': $google-colors-blue-800,
+                  'blue-900': $google-colors-blue-900,
+                  'blue-A100': $google-colors-blue-A100,
+                  'blue-A200': $google-colors-blue-A200,
+                  'blue-A400': $google-colors-blue-A400,
+                  'blue-A700': $google-colors-blue-A700 );
+
+// Light Blue
+$google-colors-light-blue: #03A9F4;
+$google-colors-light-blue-50: #E1F5FE;
+$google-colors-light-blue-100: #B3E5FC;
+$google-colors-light-blue-200: #81D4FA;
+$google-colors-light-blue-300: #4FC3F7;
+$google-colors-light-blue-400: #29B6F6;
+$google-colors-light-blue-500: $google-colors-light-blue;
+$google-colors-light-blue-600: #039BE5;
+$google-colors-light-blue-700: #0288D1;
+$google-colors-light-blue-800: #0277BD;
+$google-colors-light-blue-900: #01579B;
+$google-colors-light-blue-A100: #80D8FF;
+$google-colors-light-blue-A200: #40C4FF;
+$google-colors-light-blue-A400: #00B0FF;
+$google-colors-light-blue-A700: #0091EA;
+
+$google-map-light-blue: ('light-blue': $google-colors-light-blue,
+                  'light-blue-50': $google-colors-light-blue-50,
+                  'light-blue-100': $google-colors-light-blue-100,
+                  'light-blue-200': $google-colors-light-blue-200,
+                  'light-blue-300': $google-colors-light-blue-300,
+                  'light-blue-400': $google-colors-light-blue-400,
+                  'light-blue-500': $google-colors-light-blue-500,
+                  'light-blue-600': $google-colors-light-blue-600,
+                  'light-blue-700': $google-colors-light-blue-700,
+                  'light-blue-800': $google-colors-light-blue-800,
+                  'light-blue-900': $google-colors-light-blue-900,
+                  'light-blue-A100': $google-colors-light-blue-A100,
+                  'light-blue-A200': $google-colors-light-blue-A200,
+                  'light-blue-A400': $google-colors-light-blue-A400,
+                  'light-blue-A700': $google-colors-light-blue-A700 );
+
+// Cyan
+$google-colors-cyan: #00BCD4;
+$google-colors-cyan-50: #E0F7FA;
+$google-colors-cyan-100: #B2EBF2;
+$google-colors-cyan-200: #80DEEA;
+$google-colors-cyan-300: #4DD0E1;
+$google-colors-cyan-400: #26C6DA;
+$google-colors-cyan-500: $google-colors-cyan;
+$google-colors-cyan-600: #00BCD4;
+$google-colors-cyan-700: #00ACC1;
+$google-colors-cyan-800: #0097A7;
+$google-colors-cyan-900: #00838F;
+$google-colors-cyan-A100: #006064;
+$google-colors-cyan-A200: #84FFFF;
+$google-colors-cyan-A400: #18FFFF;
+$google-colors-cyan-A700: #00E5FF;
+
+$google-map-cyan: ('cyan': $google-colors-cyan,
+                  'cyan-50': $google-colors-cyan-50,
+                  'cyan-100': $google-colors-cyan-100,
+                  'cyan-200': $google-colors-cyan-200,
+                  'cyan-300': $google-colors-cyan-300,
+                  'cyan-400': $google-colors-cyan-400,
+                  'cyan-500': $google-colors-cyan-500,
+                  'cyan-600': $google-colors-cyan-600,
+                  'cyan-700': $google-colors-cyan-700,
+                  'cyan-800': $google-colors-cyan-800,
+                  'cyan-900': $google-colors-cyan-900,
+                  'cyan-A100': $google-colors-cyan-A100,
+                  'cyan-A200': $google-colors-cyan-A200,
+                  'cyan-A400': $google-colors-cyan-A400,
+                  'cyan-A700': $google-colors-cyan-A700 );
+
+// Teal
+$google-colors-teal: #009688;
+$google-colors-teal-50: #E0F2F1;
+$google-colors-teal-100: #B2DFDB;
+$google-colors-teal-200: #80CBC4;
+$google-colors-teal-300: #4DB6AC;
+$google-colors-teal-400: #26A69A;
+$google-colors-teal-500: $google-colors-teal;
+$google-colors-teal-600: #00897B;
+$google-colors-teal-700: #00796B;
+$google-colors-teal-800: #00695C;
+$google-colors-teal-900: #004D40;
+$google-colors-teal-A100: #A7FFEB;
+$google-colors-teal-A200: #64FFDA;
+$google-colors-teal-A400: #1DE9B6;
+$google-colors-teal-A700: #00BFA5;
+
+$google-map-teal: ('teal': $google-colors-teal,
+                  'teal-50': $google-colors-teal-50,
+                  'teal-100': $google-colors-teal-100,
+                  'teal-200': $google-colors-teal-200,
+                  'teal-300': $google-colors-teal-300,
+                  'teal-400': $google-colors-teal-400,
+                  'teal-500': $google-colors-teal-500,
+                  'teal-600': $google-colors-teal-600,
+                  'teal-700': $google-colors-teal-700,
+                  'teal-800': $google-colors-teal-800,
+                  'teal-900': $google-colors-teal-900,
+                  'teal-A100': $google-colors-teal-A100,
+                  'teal-A200': $google-colors-teal-A200,
+                  'teal-A400': $google-colors-teal-A400,
+                  'teal-A700': $google-colors-teal-A700 );
+
+// Green
+$google-colors-green: #4CAF50;
+$google-colors-green-50: #E8F5E9;
+$google-colors-green-100: #C8E6C9;
+$google-colors-green-200: #A5D6A7;
+$google-colors-green-300: #81C784;
+$google-colors-green-400: #66BB6A;
+$google-colors-green-500: $google-colors-green;
+$google-colors-green-600: #43A047;
+$google-colors-green-700: #388E3C;
+$google-colors-green-800: #2E7D32;
+$google-colors-green-900: #1B5E20;
+$google-colors-green-A100: #B9F6CA;
+$google-colors-green-A200: #69F0AE;
+$google-colors-green-A400: #00E676;
+$google-colors-green-A700: #00C853;
+
+$google-map-green: ('green': $google-colors-green,
+                  'green-50': $google-colors-green-50,
+                  'green-100': $google-colors-green-100,
+                  'green-200': $google-colors-green-200,
+                  'green-300': $google-colors-green-300,
+                  'green-400': $google-colors-green-400,
+                  'green-500': $google-colors-green-500,
+                  'green-600': $google-colors-green-600,
+                  'green-700': $google-colors-green-700,
+                  'green-800': $google-colors-green-800,
+                  'green-900': $google-colors-green-900,
+                  'green-A100': $google-colors-green-A100,
+                  'green-A200': $google-colors-green-A200,
+                  'green-A400': $google-colors-green-A400,
+                  'green-A700': $google-colors-green-A700 );
+
+// Light Green
+$google-colors-light-green: #8BC34A;
+$google-colors-light-green-50: #F1F8E9;
+$google-colors-light-green-100: #DCEDC8;
+$google-colors-light-green-200: #C5E1A5;
+$google-colors-light-green-300: #AED581;
+$google-colors-light-green-400: #9CCC65;
+$google-colors-light-green-500: $google-colors-light-green;
+$google-colors-light-green-600: #7CB342;
+$google-colors-light-green-700: #689F38;
+$google-colors-light-green-800: #558B2F;
+$google-colors-light-green-900: #33691E;
+$google-colors-light-green-A100: #CCFF90;
+$google-colors-light-green-A200: #B2FF59;
+$google-colors-light-green-A400: #76FF03;
+$google-colors-light-green-A700: #64DD17;
+
+$google-map-light-green: ('light-green': $google-colors-light-green,
+                  'light-green-50': $google-colors-light-green-50,
+                  'light-green-100': $google-colors-light-green-100,
+                  'light-green-200': $google-colors-light-green-200,
+                  'light-green-300': $google-colors-light-green-300,
+                  'light-green-400': $google-colors-light-green-400,
+                  'light-green-500': $google-colors-light-green-500,
+                  'light-green-600': $google-colors-light-green-600,
+                  'light-green-700': $google-colors-light-green-700,
+                  'light-green-800': $google-colors-light-green-800,
+                  'light-green-900': $google-colors-light-green-900,
+                  'light-green-A100': $google-colors-light-green-A100,
+                  'light-green-A200': $google-colors-light-green-A200,
+                  'light-green-A400': $google-colors-light-green-A400,
+                  'light-green-A700': $google-colors-light-green-A700 );
+
+// Lime
+$google-colors-lime: #CDDC39;
+$google-colors-lime-50: #F9FBE7;
+$google-colors-lime-100: #F0F4C3;
+$google-colors-lime-200: #E6EE9C;
+$google-colors-lime-300: #DCE775;
+$google-colors-lime-400: #D4E157;
+$google-colors-lime-500: $google-colors-lime;
+$google-colors-lime-600: #C0CA33;
+$google-colors-lime-700: #AFB42B;
+$google-colors-lime-800: #9E9D24;
+$google-colors-lime-900: #827717;
+$google-colors-lime-A100: #F4FF81;
+$google-colors-lime-A200: #EEFF41;
+$google-colors-lime-A400: #C6FF00;
+$google-colors-lime-A700: #AEEA00;
+
+$google-map-lime: ('lime': $google-colors-lime,
+                  'lime-50': $google-colors-lime-50,
+                  'lime-100': $google-colors-lime-100,
+                  'lime-200': $google-colors-lime-200,
+                  'lime-300': $google-colors-lime-300,
+                  'lime-400': $google-colors-lime-400,
+                  'lime-500': $google-colors-lime-500,
+                  'lime-600': $google-colors-lime-600,
+                  'lime-700': $google-colors-lime-700,
+                  'lime-800': $google-colors-lime-800,
+                  'lime-900': $google-colors-lime-900,
+                  'lime-A100': $google-colors-lime-A100,
+                  'lime-A200': $google-colors-lime-A200,
+                  'lime-A400': $google-colors-lime-A400,
+                  'lime-A700': $google-colors-lime-A700 );
+
+// Yellow
+$google-colors-yellow: #FFEB3B;
+$google-colors-yellow-50: #FFFDE7;
+$google-colors-yellow-100: #FFF9C4;
+$google-colors-yellow-200: #FFF59D;
+$google-colors-yellow-300: #FFF176;
+$google-colors-yellow-400: #FFEE58;
+$google-colors-yellow-500: $google-colors-yellow;
+$google-colors-yellow-600: #FDD835;
+$google-colors-yellow-700: #FBC02D;
+$google-colors-yellow-800: #F9A825;
+$google-colors-yellow-900: #F57F17;
+$google-colors-yellow-A100: #FFFF8D;
+$google-colors-yellow-A200: #FFFF00;
+$google-colors-yellow-A400: #FFEA00;
+$google-colors-yellow-A700: #FFD600;
+
+$google-map-yellow: ('yellow': $google-colors-yellow,
+                  'yellow-50': $google-colors-yellow-50,
+                  'yellow-100': $google-colors-yellow-100,
+                  'yellow-200': $google-colors-yellow-200,
+                  'yellow-300': $google-colors-yellow-300,
+                  'yellow-400': $google-colors-yellow-400,
+                  'yellow-500': $google-colors-yellow-500,
+                  'yellow-600': $google-colors-yellow-600,
+                  'yellow-700': $google-colors-yellow-700,
+                  'yellow-800': $google-colors-yellow-800,
+                  'yellow-900': $google-colors-yellow-900,
+                  'yellow-A100': $google-colors-yellow-A100,
+                  'yellow-A200': $google-colors-yellow-A200,
+                  'yellow-A400': $google-colors-yellow-A400,
+                  'yellow-A700': $google-colors-yellow-A700 );
+
+// Amber
+$google-colors-amber: #FFC107;
+$google-colors-amber-50: #FFF8E1;
+$google-colors-amber-100: #FFECB3;
+$google-colors-amber-200: #FFE082;
+$google-colors-amber-300: #FFD54F;
+$google-colors-amber-400: #FFCA28;
+$google-colors-amber-500: $google-colors-amber;
+$google-colors-amber-600: #FFB300;
+$google-colors-amber-700: #FFA000;
+$google-colors-amber-800: #FF8F00;
+$google-colors-amber-900: #FF6F00;
+$google-colors-amber-A100: #FFE57F;
+$google-colors-amber-A200: #FFD740;
+$google-colors-amber-A400: #FFC400;
+$google-colors-amber-A700: #FFAB00;
+
+$google-map-amber: ('amber': $google-colors-amber,
+                  'amber-50': $google-colors-amber-50,
+                  'amber-100': $google-colors-amber-100,
+                  'amber-200': $google-colors-amber-200,
+                  'amber-300': $google-colors-amber-300,
+                  'amber-400': $google-colors-amber-400,
+                  'amber-500': $google-colors-amber-500,
+                  'amber-600': $google-colors-amber-600,
+                  'amber-700': $google-colors-amber-700,
+                  'amber-800': $google-colors-amber-800,
+                  'amber-900': $google-colors-amber-900,
+                  'amber-A100': $google-colors-amber-A100,
+                  'amber-A200': $google-colors-amber-A200,
+                  'amber-A400': $google-colors-amber-A400,
+                  'amber-A700': $google-colors-amber-A700 );
+
+// Orange
+$google-colors-orange: #FF9800;
+$google-colors-orange-50: #FFF3E0;
+$google-colors-orange-100: #FFE0B2;
+$google-colors-orange-200: #FFCC80;
+$google-colors-orange-300: #FFB74D;
+$google-colors-orange-400: #FFA726;
+$google-colors-orange-500: $google-colors-orange;
+$google-colors-orange-600: #FB8C00;
+$google-colors-orange-700: #F57C00;
+$google-colors-orange-800: #EF6C00;
+$google-colors-orange-900: #E65100;
+$google-colors-orange-A100: #FFD180;
+$google-colors-orange-A200: #FFAB40;
+$google-colors-orange-A400: #FF9100;
+$google-colors-orange-A700: #FF6D00;
+
+$google-map-orange: ('orange': $google-colors-orange,
+                  'orange-50': $google-colors-orange-50,
+                  'orange-100': $google-colors-orange-100,
+                  'orange-200': $google-colors-orange-200,
+                  'orange-300': $google-colors-orange-300,
+                  'orange-400': $google-colors-orange-400,
+                  'orange-500': $google-colors-orange-500,
+                  'orange-600': $google-colors-orange-600,
+                  'orange-700': $google-colors-orange-700,
+                  'orange-800': $google-colors-orange-800,
+                  'orange-900': $google-colors-orange-900,
+                  'orange-A100': $google-colors-orange-A100,
+                  'orange-A200': $google-colors-orange-A200,
+                  'orange-A400': $google-colors-orange-A400,
+                  'orange-A700': $google-colors-orange-A700 );
+
+// Deep Orange
+$google-colors-deep-orange: #FF5722;
+$google-colors-deep-orange-50: #FBE9E7;
+$google-colors-deep-orange-100: #FFCCBC;
+$google-colors-deep-orange-200: #FFAB91;
+$google-colors-deep-orange-300: #FF8A65;
+$google-colors-deep-orange-400: #FF7043;
+$google-colors-deep-orange-500: $google-colors-deep-orange;
+$google-colors-deep-orange-600: #F4511E;
+$google-colors-deep-orange-700: #E64A19;
+$google-colors-deep-orange-800: #D84315;
+$google-colors-deep-orange-900: #BF360C;
+$google-colors-deep-orange-A100: #FF9E80;
+$google-colors-deep-orange-A200: #FF6E40;
+$google-colors-deep-orange-A400: #FF3D00;
+$google-colors-deep-orange-A700: #DD2C00;
+
+$google-map-deep-orange: ('deep-orange': $google-colors-deep-orange,
+                  'deep-orange-50': $google-colors-deep-orange-50,
+                  'deep-orange-100': $google-colors-deep-orange-100,
+                  'deep-orange-200': $google-colors-deep-orange-200,
+                  'deep-orange-300': $google-colors-deep-orange-300,
+                  'deep-orange-400': $google-colors-deep-orange-400,
+                  'deep-orange-500': $google-colors-deep-orange-500,
+                  'deep-orange-600': $google-colors-deep-orange-600,
+                  'deep-orange-700': $google-colors-deep-orange-700,
+                  'deep-orange-800': $google-colors-deep-orange-800,
+                  'deep-orange-900': $google-colors-deep-orange-900,
+                  'deep-orange-A100': $google-colors-deep-orange-A100,
+                  'deep-orange-A200': $google-colors-deep-orange-A200,
+                  'deep-orange-A400': $google-colors-deep-orange-A400,
+                  'deep-orange-A700': $google-colors-deep-orange-A700 );
+
+// Brown
+$google-colors-brown: #795548;
+$google-colors-brown-50: #EFEBE9;
+$google-colors-brown-100: #D7CCC8;
+$google-colors-brown-200: #BCAAA4;
+$google-colors-brown-300: #A1887F;
+$google-colors-brown-400: #8D6E63;
+$google-colors-brown-500: $google-colors-brown;
+$google-colors-brown-600: #6D4C41;
+$google-colors-brown-700: #5D4037;
+$google-colors-brown-800: #4E342E;
+$google-colors-brown-900: #3E2723;
+
+$google-map-brown: ('brown': $google-colors-brown,
+                  'brown-50': $google-colors-brown-50,
+                  'brown-100': $google-colors-brown-100,
+                  'brown-200': $google-colors-brown-200,
+                  'brown-300': $google-colors-brown-300,
+                  'brown-400': $google-colors-brown-400,
+                  'brown-500': $google-colors-brown-500,
+                  'brown-600': $google-colors-brown-600,
+                  'brown-700': $google-colors-brown-700,
+                  'brown-800': $google-colors-brown-800,
+                  'brown-900': $google-colors-brown-900);
+
+// Grey
+$google-colors-grey: #9E9E9E;
+$google-colors-grey-50: #FAFAFA;
+$google-colors-grey-100: #F5F5F5;
+$google-colors-grey-200: #EEEEEE;
+$google-colors-grey-300: #E0E0E0;
+$google-colors-grey-400: #BDBDBD;
+$google-colors-grey-500: $google-colors-grey;
+$google-colors-grey-600: #757575;
+$google-colors-grey-700: #616161;
+$google-colors-grey-800: #424242;
+$google-colors-grey-900: #212121;
+
+$google-map-grey: ('grey': $google-colors-grey,
+                  'grey-50': $google-colors-grey-50,
+                  'grey-100': $google-colors-grey-100,
+                  'grey-200': $google-colors-grey-200,
+                  'grey-300': $google-colors-grey-300,
+                  'grey-400': $google-colors-grey-400,
+                  'grey-500': $google-colors-grey-500,
+                  'grey-600': $google-colors-grey-600,
+                  'grey-700': $google-colors-grey-700,
+                  'grey-800': $google-colors-grey-800,
+                  'grey-900': $google-colors-grey-900);
+
+// Blue Grey
+$google-colors-blue-grey: #607D8B;
+$google-colors-blue-grey-50: #ECEFF1;
+$google-colors-blue-grey-100: #CFD8DC;
+$google-colors-blue-grey-200: #B0BEC5;
+$google-colors-blue-grey-300: #90A4AE;
+$google-colors-blue-grey-400: #78909C;
+$google-colors-blue-grey-500: $google-colors-blue-grey;
+$google-colors-blue-grey-600: #546E7A;
+$google-colors-blue-grey-700: #455A64;
+$google-colors-blue-grey-800: #37474F;
+$google-colors-blue-grey-900: #263238;
+
+$google-map-blue-grey: ('blue-grey': $google-colors-blue-grey,
+                  'blue-grey-50': $google-colors-blue-grey-50,
+                  'blue-grey-100': $google-colors-blue-grey-100,
+                  'blue-grey-200': $google-colors-blue-grey-200,
+                  'blue-grey-300': $google-colors-blue-grey-300,
+                  'blue-grey-400': $google-colors-blue-grey-400,
+                  'blue-grey-500': $google-colors-blue-grey-500,
+                  'blue-grey-600': $google-colors-blue-grey-600,
+                  'blue-grey-700': $google-colors-blue-grey-700,
+                  'blue-grey-800': $google-colors-blue-grey-800,
+                  'blue-grey-900': $google-colors-blue-grey-900 );
+
+// Black
+$google-colors-black: #000000;
+
+// White
+$google-colors-white: #ffffff;
+
+$google-map-black-white: ('black':$google-colors-black,
+                          'white':$google-colors-white);
+
+$google-color-maps: ($google-map-red,$google-map-pink,$google-map-purple,
+                     $google-map-deep-purple, $google-map-indigo, $google-map-blue,
+                     $google-map-light-blue, $google-map-cyan, $google-map-teal,
+                     $google-map-green, $google-map-light-green, $google-map-lime,
+                     $google-map-yellow, $google-map-amber, $google-map-orange,
+                     $google-map-orange, $google-map-deep-orange, $google-map-brown,
+                     $google-map-grey, $google-map-blue-grey, $google-map-black-white);
+
+
+@each $map in $google-color-maps{
+    @each $google-color, $color-value in $map{
+        .#{'background-google-' + $google-color}{
+            background: $color-value;
+        }
+        .#{'color-google-' + $google-color}{
+            color: $color-value;
+        }
+    }
+}

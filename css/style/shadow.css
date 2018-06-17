@@ -1,0 +1,28 @@
+.shadow {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7); }
+
+.shadow-left {
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-right {
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-top {
+  box-shadow: 0px -3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-bottom {
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-top-left {
+  box-shadow: -3px -3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-top-right {
+  box-shadow: 3px -3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-bottom-left {
+  box-shadow: -3px 3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+.shadow-bottom-right {
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }
+
+/*# sourceMappingURL=shadow.css.map */

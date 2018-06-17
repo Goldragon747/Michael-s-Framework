@@ -1,0 +1,29 @@
+@import "border";
+form {
+    @extend .row;
+}
+input, select {
+    box-sizing: border-box;
+    max-width: 200px;
+    height: 25px !important;
+    margin: 0 !important;
+}
+input[type=button], input[type=color], input[type=date],
+input[type=datetime], input[type=datetime-local], input[type=email], input[type=file],
+input[type=hidden], input[type=image], input[type=month], input[type=month],
+input[type=number], input[type=password],  input[type=reset],
+input[type=search], input[type=tel], input[type=text], input[type=time],
+input[type=url], input[type=week], input[type=submit],select  {
+    @include border(2px, darken($bggrey,10));
+    box-sizing: border-box;
+    margin-top:0;
+    margin-bottom:0;
+    vertical-align: center;
+}
+input[type=button],input[type=submit],input[type=reset]{
+    @extend .button;
+    padding:0 10px !important;
+}
+input[type=file]{
+    min-width: 200px - 67.39 !important;
+}

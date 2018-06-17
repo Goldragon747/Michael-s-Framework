@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael's Framework Documentation</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body class="background-bggrey">
+    <nav class="right background-blue">
+        <div class="nav-logo float-left"><a href="index.html">Michael's Framework</a></div>
+        <ul>
+            <li class="background-blue">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="background-blue">
+                <a href="grid.html">Grid</a>
+            </li>
+            <li class="background-blue">
+                <a href="javascript.html">Javascript</a>
+            </li>
+            <div class="dropdown background-blue">
+                <a href="styles.html" class="dropdown-trigger" data-target="dropdown-1">Styles <i class="fas fa-angle-double-down"></i></a>
+                <div class="dropdown-list" data-value="dropdown-1">
+                    <a href="styles.html">Styles</a>
+                    <a href="colors.html">Colors</a>
+                    <a href="elements.html">Elements</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="container-lg container-decorated padding space-top space-bottom">
+        <h1 class="">Javascript Features:</h1>
+        <hr />
+        <h2 id="modals" class="space-top space-bottom">Modals</h2>
+        <div class="row">
+            <div class="modal" data-value="modal-demo">
+                <div>
+                    <a class="modal-exit" data-target="modal-demo"><i class="fas fa-times"></i></a>
+                    <h2>Modal Demo</h2>
+                    <hr />
+                    <p>Modals are great!</p>
+                </div>
+            </div>
+            <button class="modal-button button-green xxl no-border" data-target="modal-demo">modal</button>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue" data-target="code-modal-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-modal-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="modal" data-value="modal-demo"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>div<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>a class="modal-exit" data-target="modal-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-times"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/a<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>Modal Demo<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>hr /<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>Modals are great!<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>button class="modal-button button-green xxl no-border" data-target="modal-demo"<span class='bracket'>&gt;</span></span>modal<span class='bracket-inside'><span class='bracket'>&lt;</span>/button<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <div class="row">
+            <div class="modal modal-left" data-value="modal-left-demo">
+                <div >
+                    <a class="modal-exit" data-target="modal-left-demo"><i class="fas fa-times"></i></a>
+                    <h2>Modal Left Demo</h2>
+                    <hr />
+                    <p>Im on the left!</p>
+                </div>
+            </div>
+            <div class="modal modal-top" data-value="modal-top-demo">
+                <div >
+                    <a class="modal-exit" data-target="modal-top-demo"><i class="fas fa-times"></i></a>
+                    <h2>Modal Top Demo</h2>
+                    <hr />
+                    <p>Im up here!</p>
+                </div>
+            </div>
+            <div class="modal modal-bottom" data-value="modal-bottom-demo">
+                <div >
+                    <a class="modal-exit" data-target="modal-bottom-demo"><i class="fas fa-times"></i></a>
+                    <h2>Modal Bottom Demo</h2>
+                    <hr />
+                    <p>Im down here!</p>
+                </div>
+            </div>
+            <div class="modal modal-right" data-value="modal-right-demo">
+                <div>
+                    <a class="modal-exit" data-target="modal-right-demo"><i class="fas fa-times"></i></a>
+                    <h2>Modal Right Demo</h2>
+                    <hr />
+                    <p>Im on the right!</p>
+                </div>
+            </div>
+            <button class="modal-button button-red xl no-border" data-target="modal-left-demo">modal modal-left</button>
+            <button class="modal-button button-blue xl no-border" data-target="modal-top-demo">modal modal-top</button>
+            <button class="modal-button button-cyan xl no-border" data-target="modal-bottom-demo">modal modal-bottom</button>
+            <button class="modal-button button-pink xl no-border" data-target="modal-right-demo">modal modal-right</button>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue" data-target="code-modals-directions">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-modals-directions">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="modal modal-left" data-value="modal-left-demo"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>div <span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>a class="modal-exit" data-target="modal-left-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-times"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/a<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>Modal Left Demo<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>hr /<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>Im on the left!<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="modal modal-top" data-value="modal-top-demo"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>div <span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>a class="modal-exit" data-target="modal-top-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-times"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/a<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>Modal Top Demo<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>hr /<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>Im up here!<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="modal modal-bottom" data-value="modal-bottom-demo"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>div <span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>a class="modal-exit" data-target="modal-bottom-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-times"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/a<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>Modal Bottom Demo<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>hr /<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>Im down here!<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="modal modal-right" data-value="modal-right-demo"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>div<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>a class="modal-exit" data-target="modal-right-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-times"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/a<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>Modal Right Demo<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>hr /<span class='bracket'>&gt;</span></span>
+                <br />                    <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>Im on the right!<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>button class="modal-button button-red xl no-border" data-target="modal-left-demo"<span class='bracket'>&gt;</span></span>modal modal-left<span class='bracket-inside'><span class='bracket'>&lt;</span>/button<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>button class="modal-button button-blue xl no-border" data-target="modal-top-demo"<span class='bracket'>&gt;</span></span>modal modal-top<span class='bracket-inside'><span class='bracket'>&lt;</span>/button<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>button class="modal-button button-cyan xl no-border" data-target="modal-bottom-demo"<span class='bracket'>&gt;</span></span>modal modal-bottom<span class='bracket-inside'><span class='bracket'>&lt;</span>/button<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>button class="modal-button button-pink xl no-border" data-target="modal-right-demo"<span class='bracket'>&gt;</span></span>modal modal-right<span class='bracket-inside'><span class='bracket'>&lt;</span>/button<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="carousels" class="space-top space-bottom">Carousel</h2>
+        <div class="carousel" data-value="carousel-demo">
+            <div class="prev" data-target="carousel-demo"><i class="fas fa-angle-double-left"></i></div>
+            <div class="next" data-target="carousel-demo"><i class="fas fa-angle-double-right"></i></div>
+            <div class="carousel-text carousel-text-right">
+                <h4>carousel-text 1</h4>
+                <a href="#"><button class="button-yellow no-border shadow no-space">To Top</button></a>
+            </div>
+            <div class="carousel-text carousel-text-right">
+                <h4>carousel-text 2</h4>
+                <a href="#"><button class="button-yellow no-border shadow no-space">To Top</button></a>
+            </div>
+            <div class="carousel-text carousel-text-right">
+                <h4>carousel-text 3</h4>
+                <a href="#"><button class="button-yellow no-border shadow no-space">To Top</button></a>
+            </div>
+            <div class="carousel-text carousel-text-right">
+                <h4>carousel-text 4</h4>
+                <a href="#"><button class="button-yellow no-border shadow no-space">To Top</button></a>
+            </div>
+            <div class="carousel-text carousel-text-left">
+                <h4>carousel-text 5</h4>
+                <a href="#"><button class="button-yellow no-border shadow no-space">To Top</button></a>
+            </div>
+            <img src="images/slide1.png"/>
+            <img src="images/slide2.png"/>
+            <img src="images/slide3.png"/>
+            <img src="images/slide4.png"/>
+            <img src="images/slide5.png"/>
+            <div class="indicators"></div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-carousel-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-carousel-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="carousel" data-value="carousel-demo"<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="prev" data-target="carousel-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-angle-double-left"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="next" data-target="carousel-demo"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>i class="fas fa-angle-double-right"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/i<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>img src="images/slide1.png"/<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>img src="images/slide2.png"/<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>img src="images/slide3.png"/<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>img src="images/slide4.png"/<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>img src="images/slide5.png"/<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="indicators"<span class='bracket'>&gt;</span></span><span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />        <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+    </div>
+    <script src="javascript/michaels-framework-script.js"></script>
+</body>
+
+</html>

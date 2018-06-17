@@ -1,0 +1,18 @@
+@mixin flex-container($row-or-col){
+    display: flex;
+    flex-direction: $row-or-col;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@mixin flex-item{
+    @include flex-padding();
+    @include flex-margin();
+}
+@mixin flex-margin {
+    margin: 0 $flex-margin;
+}
+@mixin flex-padding {
+    padding: $flex-padding;
+}
+$flex-margin: 15px;
+$flex-padding: 15px;

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael's Framework Documentation</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body class="background-bggrey">
+    <nav class="right background-blue">
+        <div class="nav-logo float-left"><a href="index.html">Michael's Framework</a></div>
+        <ul>
+            <li class="background-blue">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="background-blue">
+                <a href="grid.html">Grid</a>
+            </li>
+            <li class="background-blue">
+                <a href="javascript.html">Javascript</a>
+            </li>
+            <div class="dropdown background-blue">
+                <a href="styles.html" class="dropdown-trigger" data-target="dropdown-1">Styles <i class="fas fa-angle-double-down"></i></a>
+                <div class="dropdown-list" data-value="dropdown-1">
+                    <a href="styles.html">Styles</a>
+                    <a href="colors.html">Colors</a>
+                    <a href="elements.html">Elements</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    
+    <div class="container-lg container-decorated padding space-top space-bottom">
+        <h1>Colors:</h1>
+        <hr />
+        <h2 id="backgrounds" class="space-top space-bottom">Backgrounds</h2>
+        <div class="row">
+            <div class="col-2 background-white">
+                <p>background-white</p>
+            </div>
+            <div class="col-2 background-grey">
+                <p>background-grey</p>
+            </div>
+            <div class="col-2 background-black color-white">
+                <p>background-black</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 background-magenta">
+                <p>background-magenta</p>
+            </div>
+            <div class="col-2 background-brown">
+                <p>background-brown</p>
+            </div>
+            <div class="col-2 background-red">
+                <p>background-red</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 background-orange">
+                <p>background-orange</p>
+            </div>
+            <div class="col-2 background-yellow">
+                <p>background-yellow</p>
+            </div>
+            <div class="col-2 background-green">
+                <p>background-green</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 background-cyan">
+                <p>background-cyan</p>
+            </div>
+            <div class="col-2 background-blue">
+                <p>background-blue</p>
+            </div>
+            <div class="col-2 background-purple">
+                <p>background-purple</p>
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-backgrounds-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-backgrounds-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-white<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-grey<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-black color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-black<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-magenta"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-magenta<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-brown"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-brown<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-red"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-red<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-orange<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-yellow"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-yellow<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-green"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-green<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-cyan"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-cyan<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-blue"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-blue<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-purple"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-purple<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="font-colors" class="space-top space-bottom">Font Colors</h2>
+        <div class="row">
+            <div class="col-2 color-white background-google-grey-400">
+                <p>color-white</p>
+            </div>
+            <div class="col-2 color-grey">
+                <p>color-grey</p>
+            </div>
+            <div class="col-2 color-black color-white">
+                <p>color-black</p>
+            </div>
+            <div class="col-2 color-magenta">
+                <p>color-magenta</p>
+            </div>
+            <div class="col-2 color-brown">
+                <p>color-brown</p>
+            </div>
+            <div class="col-2 color-red">
+                <p>color-red</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 color-orange">
+                <p>color-orange</p>
+            </div>
+            <div class="col-2 color-yellow">
+                <p>color-yellow</p>
+            </div>
+            <div class="col-2 color-green">
+                <p>color-green</p>
+            </div>
+            <div class="col-2 color-cyan">
+                <p>color-cyan</p>
+            </div>
+            <div class="col-2 color-blue">
+                <p>color-blue</p>
+            </div>
+            <div class="col-2 color-purple">
+                <p>color-purple</p>
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue" data-target="code-colors-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-colors-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-white background-google-grey-400"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-white<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-grey<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-black color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-black<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-magenta"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-magenta<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-brown"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-brown<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-red"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-red<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-orange"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-orange<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-yellow"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-yellow<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-green"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-green<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-cyan"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-cyan<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-blue"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-blue<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-purple"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-purple<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="material-design-colors" class="space-top space-bottom">Google Material Design Colors</h2>
+        <p>Examples:</p>
+        <div class="row">
+            <div class="col-2 color-google-amber-100 background-grey">
+                <p>color-google-amber-100</p>
+            </div>
+            <div class="col-2 color-google-amber-200 background-grey">
+                <p>color-google-amber-200</p>
+            </div>
+            <div class="col-2 color-google-amber-300 background-grey">
+                <p>color-google-amber-300</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-2 color-google-amber-400 background-grey">
+                <p>color-google-amber-400</p>
+            </div>
+            <div class="col-2 color-google-amber-500 background-grey">
+                <p>color-google-amber-500</p>
+            </div>
+            <div class="col-2 color-google-amber-600 background-grey">
+                <p>color-google-amber-600</p>
+            </div>
+        </div>
+        <div class="row space-top space-bottom">
+            <div class="col-2 color-google-amber-700 background-grey">
+                <p>color-google-amber-700</p>
+            </div>
+            <div class="col-2 color-google-amber-800 background-grey">
+                <p>color-google-amber-800</p>
+            </div>
+            <div class="col-2 color-google-amber-900 background-grey">
+                <p>color-google-amber-900</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-2 color-google-amber-A100 background-grey">
+                <p>color-google-amber-A100</p>
+            </div>
+            <div class="col-2 color-google-amber-A200 background-grey">
+                <p>color-google-amber-A200</p>
+            </div>
+            <div class="col-2 color-google-amber-A400 background-grey">
+                <p>color-google-amber-A400</p>
+            </div>
+            <div class="col-2 color-google-amber-A400 background-grey">
+                <p>color-google-amber-A700</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-2 background-google-amber-100 color-white">
+                <p>background-google-amber-100</p>
+            </div>
+            <div class="col-2 background-google-amber-200 color-white">
+                <p>background-google-amber-200</p>
+            </div>
+            <div class="col-2 background-google-amber-300 color-white">
+                <p>background-google-amber-300</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-2 background-google-amber-400 color-white">
+                <p>background-google-amber-400</p>
+            </div>
+            <div class="col-2 background-google-amber-500 color-white">
+                <p>background-google-amber-500</p>
+            </div>
+            <div class="col-2 background-google-amber-600 color-white">
+                <p>background-google-amber-600</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-3 background-google-amber-700 color-white">
+                <p>background-google-amber-700</p>
+            </div>
+            <div class="col-3 background-google-amber-800 color-white">
+                <p>background-google-amber-800</p>
+            </div>
+            <div class="col-3 background-google-amber-900 color-white">
+                <p>background-google-amber-900</p>
+            </div>
+            <div class="col-3 background-google-amber-A100 color-white">
+                <p>background-google-amber-A100</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-4 background-google-amber-A200 color-white">
+                <p>background-google-amber-A200</p>
+            </div>
+            <div class="col-4 background-google-amber-A400 color-white">
+                <p>background-google-amber-A400</p>
+            </div>
+            <div class="col-4 background-google-amber-A400 color-white">
+                <p>background-google-amber-A700</p>
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-google-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion space-bottom" data-value="code-google-demo">
+            <code>
+               <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-100 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-100<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-200 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-200<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-300 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-300<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-400 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-400<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-500 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-500<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-600 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-600<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-700 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-700<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-800 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-800<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-900 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-900<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-A100 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-A100<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-A200 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-A200<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-A400 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-A400<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 color-google-amber-A400 background-grey"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>color-google-amber-A700<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-100 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-100<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-200 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-200<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-300 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-300<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-400 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-400<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-500 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-500<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-google-amber-600 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-600<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-3 background-google-amber-700 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-700<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-3 background-google-amber-800 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-800<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-3 background-google-amber-900 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-900<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-3 background-google-amber-A100 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-A100<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-google-amber-A200 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-A200<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-google-amber-A400 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-A400<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-google-amber-A400 color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p<span class='bracket'>&gt;</span></span>background-google-amber-A700<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="material-design-list" class="space-top space-bottom">Full list:</h2>
+        <iframe class="space-bottom" src="https://material.io/guidelines/style/color.html#color-color-palette"></iframe>
+    </div>
+    <script src="javascript/michaels-framework-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.carousel{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    img{
+        position: absolute;
+        z-index: -1;
+        display: none;
+        width: 100%;
+        @include browser-compatibility(transition, all 1s cubic-bezier(0.43, 0.39, 0.01, 0.99));
+    }
+    .prev, .next{
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 100%;
+        color:$white;
+        background: transparentize($grey, .5);
+        @include browser-compatibility(transition, all .5s ease-out);
+        &:hover {
+            background: transparentize($bggrey, .4);
+        }
+        &:hover, i:hover{
+            color:darken($black,$darken-amount);
+            cursor: pointer;
+        }
+        i{
+            position: absolute;
+            top:50%;
+            font-size:18px;
+        }
+    }
+    .next{
+        right:0;
+        i{
+            right:0;
+            @include browser-compatibility(transform, translate(-100%, -50%));
+        }
+    }
+    .prev{
+        left:0;
+        i {
+            left:0;
+            @include browser-compatibility(transform, translate(100%, -50%));
+        }
+    }
+    .indicators{
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left:50%;
+        @include browser-compatibility(transform, translate(-50%, 0));
+        i{
+            font-size:10px;
+            color:$white;
+            margin:15px 10px;
+        }
+    }
+}
+.carousel-text {
+    position: absolute;
+    left:50%;
+    top:100%;
+    display: none;
+    @include browser-compatibility(animation, carousel-text 1s ease-out);
+    top:50%;
+    @include browser-compatibility(transform, translate(-50%, -50%));
+}
+.carousel-text-right {
+    left:unset;
+    right:1%;
+}
+.carousel-text-left {
+    left:20%;
+    right:unset;
+}
+.carousel-text-display {
+    display: block;
+}
+.carousel-left-position {
+    @include browser-compatibility(transform, translate(-100%, 0));
+}
+.carousel-right-position {
+    @include browser-compatibility(transform, translate(100%, 0));
+}
+@keyframes carousel-text {
+    from {
+        opacity: 0;
+        @include browser-compatibility(transform, translate(-50%, -100%));
+    }
+    to {
+        opacity: 1;
+        @include browser-compatibility(transform, translate(-50%, -50%));
+    }
+}

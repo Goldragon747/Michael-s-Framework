@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto/Roboto-Regular.tff');
+}
+@mixin font-settings{
+    font-family: Roboto, sans-serif;
+    font-size: 12pt;
+}
+
+$font-class-name: 'font-size-';
+
+.#{$font-class-name + 'sm'}{
+    @include font-settings;
+    font-size:8pt;
+}
+.#{$font-class-name + 'md'}{
+    @include font-settings;
+    font-size:16pt;
+}
+.#{$font-class-name + 'lg'}{
+    @include font-settings;
+    font-size:24pt;
+}
+.#{$font-class-name + 'xl'}{
+    @include font-settings;
+    font-size:56pt;
+}
+.#{$font-class-name + 'xxl'}{
+    @include font-settings;
+    font-size:108pt;
+}

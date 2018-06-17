@@ -1,0 +1,63 @@
+@import 'google-colors';
+
+$darken-amount: 20;
+$lighten-amount: 20;
+
+$white: $google-colors-white;
+$grey: $google-colors-grey;
+$black: $google-colors-black;
+$magenta: $google-colors-purple-A200;
+$pink: $google-colors-pink;
+$red: $google-colors-red;
+$brown: $google-colors-brown;
+$orange: $google-colors-orange;
+$yellow: $google-colors-yellow;
+$green: $google-colors-green;
+$cyan: $google-colors-cyan;
+$blue: $google-colors-blue;
+$purple: $google-colors-purple;
+$nu-gray: #2b2929;
+$nu-yellow: #ffcc00;
+$nu-orange: #ea9919;
+$nu-red: #d24d3b;
+$nu-tech-green: #d6e03e;
+$nu-finance-green: #8cab3c;
+$nu-cyan: #12b5ea;
+$nu-blue: #056cb6;
+$nu-grape: #ab79a3;
+$nu-warm-gray-lt: #d8cfc6;
+$nu-warm-gray-med: #bab0a5;
+$nu-warm-gray-dk: #998b7d;
+$nu-steel-gray-dk: #636363;
+$nu-steel-gray-lt: #989898;
+$nu-reverse-logo: #e88823;
+$bggrey: #f2f2f2;
+$color-map: ('white': $white, 'grey': $grey, 'black': $black,
+             'magenta': $magenta, 'pink': $pink, 'red': $red,
+             'brown': $brown, 'orange': $orange, 'yellow': $yellow,
+             'green': $green, 'cyan': $cyan, 'blue': $blue, 'purple': $purple,
+             'bggrey': $bggrey, 'nu-grey': $nu-gray,'nu-yellow': $nu-yellow,
+             'nu-orange': $nu-orange, 'nu-red': $nu-red, 'nu-tech-green': $nu-tech-green,
+             'nu-finance-green':$nu-finance-green, 'nu-cyan': $nu-cyan, 'nu-blue': $nu-blue,
+             'nu-grape': $nu-grape,'nu-warm-gray-lt': $nu-warm-gray-lt, 'nu-warm-gray-med': $nu-warm-gray-med,
+             'nu-warm-gray-dk': $nu-warm-gray-dk, 'nu-steel-gray-lt': $nu-steel-gray-lt,
+             'nu-reverse-logo': $nu-reverse-logo);
+$color-map-for-white-font: ('red': $red, 'pink': $pink, 'orange': $orange, 'grey': $grey,
+                 'cyan': $cyan,'magenta': $magenta,'green': $green, 'purple': $purple, 
+                 'black': $black,'blue': $blue, 'brown': $brown, 'nu-grey': $nu-gray,'nu-yellow': $nu-yellow,
+                 'nu-orange': $nu-orange, 'nu-red': $nu-red, 'nu-tech-green': $nu-tech-green,
+                 'nu-finance-green':$nu-finance-green, 'nu-cyan': $nu-cyan, 'nu-blue': $nu-blue,
+                 'nu-grape': $nu-grape, 'nu-steel-gray-lt': $nu-steel-gray-lt,
+                 'nu-reverse-logo': $nu-reverse-logo );
+$color-map-for-black-font: ('white': $white, 'yellow': $yellow, 'nu-warm-gray-lt': $nu-warm-gray-lt, 'nu-warm-gray-med': $nu-warm-gray-med,
+'nu-warm-gray-dk': $nu-warm-gray-dk);
+
+@each $color, $color-value in $color-map{
+    .#{'color-' + $color} {
+        color: $color-value;
+    }
+    .#{'background-' + $color}{
+        background: $color-value;
+    }
+    
+}

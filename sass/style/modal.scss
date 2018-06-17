@@ -1,0 +1,73 @@
+@import '../color/colors';
+@import 'margin';
+@import '../flex/flex';
+@import '../global/global';
+@import 'font';
+@mixin modal-background {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 5000px;
+    z-index: 1000;
+    background-color: transparentize($color: $bggrey, $amount: .5);
+    overflow: hidden;
+    @include browser-compatibility(transition, all .2s);
+    @include flex-container(row);
+    display: none;
+}
+.modal-center, .modal, .modal-top, .modal-bottom, .modal-right, .modal-left {
+    @include modal-background;
+    div {
+        @include flex-item;
+        flex:1;
+        @extend .container;
+        @extend .container-decorated;
+        @include flex-item;
+        max-width: 800px;
+        top: 50%;
+        position: fixed;
+        left: 50%;
+        @include browser-compatibility(transform, translate(-50%, -50%));
+        @media all and (max-width:500px) {
+            left: 0;
+            width:100%;
+            @include browser-compatibility(transform, translate(-50%, 0));
+        }
+    }
+}
+.modal-top {
+    div {
+        top:0;
+        @include browser-compatibility(transform, translate(-50%, 50%));
+    }
+}
+.modal-bottom {
+    div {
+        top:unset;
+        bottom:0;
+        @include browser-compatibility(transform, translate(-50%, -25%));
+    }
+}
+.modal-right {
+    div {
+        left:unset;
+        right: 0;
+        @include browser-compatibility(transform, translate(0, -50%));
+    }
+}
+.modal-left {
+    div {
+        left:0;
+        @include browser-compatibility(transform, translate(0, -50%));
+    }
+}
+.modal-exit {
+    position: absolute;
+    top:0;
+    right:0;
+    color: $black;
+    @extend .#{$font-class-name + 'md'};
+    padding: 8px 10px;
+}

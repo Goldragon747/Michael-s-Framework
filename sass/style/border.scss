@@ -1,0 +1,47 @@
+@import 'color/colors';
+@mixin border($thickness : 1px, $color : $black){
+    border: $thickness solid $color;
+}
+.border,.border-sm{
+    @include border;
+}
+.border-md {
+    @include border(2px);
+}
+.border-lg {
+    @include border(4px);
+}
+.border-xl {
+    @include border(6px);
+}
+.border-xxl {
+    @include border(15px);
+}
+.border-smooth {
+    border-radius: 15px;
+}
+.border-smooth-sm {
+    border-radius: 5px;
+}
+.border-smooth-md {
+    border-radius: 15px;
+}
+.border-smooth-lg {
+    border-radius: 25px;
+}
+.border-smooth-xl {
+    border-radius: 35px;
+}
+.border-smooth-xxl {
+    border-radius: 155px;
+}
+.border-sides{
+    border-right: 0px 1px solid darken($grey,$darken-amount);
+    border-left: 0px 1px solid darken($grey,$darken-amount);
+}
+.no-border {
+    border:none !important;
+    td, th {
+        border:none !important;
+    }
+}

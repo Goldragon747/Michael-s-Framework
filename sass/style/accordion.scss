@@ -1,0 +1,47 @@
+@import '../global/global';
+$trigger-name: '';
+.accordion{
+	max-height: 0;
+    overflow: hidden;
+	@include browser-compatibility(transition,max-height 1.5s ease-out);
+	
+}
+.accordion-trigger {
+	position: relative;
+	width: 100%;
+	color:$bggrey;
+	padding: 15px 0;
+	background: darken($grey,$darken-amount);
+	@include browser-compatibility(transition,background .5s ease-out);
+	&:hover{
+		background: lighten($grey,$lighten-amount);	
+	}
+	h1,h2,h3,h4,h5,h6,p {
+		margin-left:15px;
+	}
+}
+.accordion-symbol {
+	position: absolute;
+	font-size:29px;
+	top:50%;
+	right:0;
+	@include browser-compatibility(transform, translate(-100%, -50%));
+}
+@each $color, $color-value in $color-map-for-white-font{
+	.#{"accordion-" + $color}{
+		color:$white;
+		background:$color-value;
+		&:hover{
+			background: darken($color-value,$darken-amount);	
+		}
+	}
+}
+@each $color, $color-value in $color-map-for-black-font{
+    .#{"accordion-" + $color}{
+		color:$black;
+		background:$color-value;
+		&:hover{
+			background: lighten($color-value,$lighten-amount);	
+		}
+	}
+}

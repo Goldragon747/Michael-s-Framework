@@ -1,0 +1,10 @@
+@import 'font';
+$base-size: 8pt;
+
+@for $heading-size from 6 through 1{
+    #{'h' + $heading-size}{
+        @include font-settings;
+        font-size: $base-size + 6;
+    }
+    $base-size: $base-size + 6;
+}

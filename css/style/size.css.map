@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACA,SAAS,EAAE,IAAI;;AAEnB,GAAI;EACA,SAAS,EAAE,IAAI;;AAEnB,GAAI;EACA,SAAS,EAAE,KAAK;;AAEpB,GAAI;EACA,SAAS,EAAE,KAAK;;AAEpB,IAAK;EACD,SAAS,EAAE,KAAK",
+"sources": ["../../sass/style/size.scss"],
+"names": [],
+"file": "size.css"
+}

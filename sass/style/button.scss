@@ -1,0 +1,74 @@
+@import '../flex/flex';
+@import 'border';
+@import '../color/colors';
+@import 'font';
+
+.button {
+    @include flex-item;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+    background: none;
+    cursor:pointer;
+    text-decoration: none;
+    @extend .border-md;
+    @extend .border-smooth-sm;
+    @extend #{$font-class-name + 'md'} !optional;
+    margin: 10px;
+    border-color: $black;
+    @include browser-compatibility(transition,all 0.5s ease-out);
+    &:focus {
+        outline:0;
+    }
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}
+@each $color, $color-value in $color-map-for-white-font{
+    .#{'button-hollow-' + $color} {
+        @extend .button;
+        border-color:$color-value !important;
+        color:$black;
+        &:hover {
+            border-color:lighten($color-value,$lighten-amount)!important;
+            background: $color-value;
+        }
+    }
+    .#{'button-' + $color} {
+        @extend .button;
+        border:none;
+        color:$white;
+        background: $color-value;
+        &:hover {
+            background: darken($color-value,$darken-amount);
+        }
+    }
+}
+@each $color, $color-value in $color-map-for-black-font{
+    .#{'button-hollow-' + $color} {
+        @extend .button;
+        border-color:$color-value !important;
+        color:$black;
+        &:hover {
+            border-color:darken($color-value,$darken-amount)!important;
+            color:$black;
+            background: $color-value;
+        }
+    }
+    .#{'button-' + $color} {
+        @extend .button;
+        border:none;
+        color:$black;
+        background: $color-value;
+        &:hover {
+            color:$black;
+            background: darken($color-value,$darken-amount);
+        }
+    }
+}
+.button-black, .button-black-hover {
+    &:hover {
+        background: lighten($black,$lighten-amount * 2);
+    }
+}

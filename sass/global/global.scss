@@ -1,0 +1,7 @@
+@mixin browser-compatibility($property, $style) {
+	$prefixes: ('-webkit-', '-moz-', '-o-', '');
+
+	@each $prefix in $prefixes {
+		#{$prefix}#{$property}: $style;
+	}
+}

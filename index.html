@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael's Framework Documentation</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body class="background-bggrey">
+    <nav class="right background-blue">
+        <div class="nav-logo float-left"><a href="index.html">Michael's Framework</a></div>
+        <ul>
+            <li class="background-blue">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="background-blue">
+                <a href="grid.html">Grid</a>
+            </li>
+            <li class="background-blue">
+                <a href="javascript.html">Javascript</a>
+            </li>
+            <div class="dropdown background-blue">
+                <a href="styles.html" class="dropdown-trigger" data-target="dropdown-1">Styles <i class="fas fa-angle-double-down"></i></a>
+                <div class="dropdown-list" data-value="dropdown-1">
+                    <a href="styles.html">Styles</a>
+                    <a href="colors.html">Colors</a>
+                    <a href="elements.html">Elements</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="carousel" data-value="carousel-main">
+        <div class="prev" data-target="carousel-main"><i class="fas fa-angle-double-left"></i></div>
+        <div class="next" data-target="carousel-main"><i class="fas fa-angle-double-right"></i></div>
+        <img class="shadow-inner" src="images/slide1.png"/>
+        <img class="shadow-inner" src="images/slide2.png"/>
+        <img class="shadow-inner" src="images/slide3.png"/>
+        <img class="shadow-inner" src="images/slide4.png"/>
+        <img class="shadow-inner" src="images/slide5.png"/>
+        <div class="indicators"></div>
+    </div>
+    <div class="container-lg container-decorated padding space-top space-bottom">
+        <h1>Getting started:</h1>
+        <hr />
+        <p id="motd"></p>
+        <table class="space-top space-bottom">
+            <tr>
+                <th class="background-blue">Features</th><th class="background-blue"></th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="colors.html#backgrounds">Backgrounds</a>
+                </td>
+                <td>
+                    <a href="colors.html#font-colors">Font Colors</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="colors.html#material-design-colors">Material Design Colors</a>
+                </td>
+                <td>
+                    <a href="colors.html#material-design-list">Material Design List</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="grid.html#containers">Containers</a>
+                </td>
+                <td>
+                    <a href="grid.html#columns">Columns</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="styles.html#headings">Headings</a>
+                </td>
+                <td>
+                    <a href="styles.html#font-sizes">Font Sizes</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="styles.html#borders">Borders</a>
+                </td>
+                <td>
+                    <a href="styles.html#shadows">Shadows</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="elements.html#buttons">Buttons</a>
+                </td>
+                <td>
+                    <a href="elements.html#nav">Nav</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="elements.html#form">Form</a>
+                </td>
+                <td>
+                    <a href="elements.html#table">Table</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="elements.html#header">Header</a>
+                </td>
+                <td>
+                    <a href="elements.html#footer">Footer</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="javascript/michaels-framework-script.js"></script>
+</body>
+
+</html>

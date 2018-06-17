@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michael's Framework Documentation</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body class="background-bggrey">
+    <nav class="right background-blue">
+        <div class="nav-logo float-left"><a href="index.html">Michael's Framework</a></div>
+        <ul>
+            <li class="background-blue">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="background-blue">
+                <a href="grid.html">Grid</a>
+            </li>
+            <li class="background-blue">
+                <a href="javascript.html">Javascript</a>
+            </li>
+            <div class="dropdown background-blue">
+                <a href="styles.html" class="dropdown-trigger" data-target="dropdown-1">Styles <i class="fas fa-angle-double-down"></i></a>
+                <div class="dropdown-list" data-value="dropdown-1">
+                    <a href="styles.html">Styles</a>
+                    <a href="colors.html">Colors</a>
+                    <a href="elements.html">Elements</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="container-lg container-decorated padding space-top space-bottom">
+        <h1>Styles:</h1>
+        <hr />
+        <h2 id="headings" class="space-top space-bottom">Headings</h2>
+        <div class="row space-bottom">
+            <div class="col-2 background-orange color-white">
+                <h1>h1</h1>
+            </div>
+            <div class="col-2 background-orange color-white">
+                <h2>h2</h2>
+            </div>
+            <div class="col-2 background-orange color-white">
+                <h3>h3</h3>
+            </div>
+            <div class="col-2 background-orange color-white">
+                <h4>h4</h4>
+            </div>
+            <div class="col-2 background-orange color-white">
+                <h5>h5</h5>
+            </div>
+            <div class="col-2 background-orange color-white">
+                <h6>h6</h6>
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue" data-target="code-heading-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion" data-value="code-heading-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h1<span class='bracket'>&gt;</span></span>h1<span class='bracket-inside'><span class='bracket'>&lt;</span>/h1<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h2<span class='bracket'>&gt;</span></span>h2<span class='bracket-inside'><span class='bracket'>&lt;</span>/h2<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h3<span class='bracket'>&gt;</span></span>h3<span class='bracket-inside'><span class='bracket'>&lt;</span>/h3<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h4<span class='bracket'>&gt;</span></span>h4<span class='bracket-inside'><span class='bracket'>&lt;</span>/h4<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h5<span class='bracket'>&gt;</span></span>h5<span class='bracket-inside'><span class='bracket'>&lt;</span>/h5<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-2 background-orange color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>h6<span class='bracket'>&gt;</span></span>h6<span class='bracket-inside'><span class='bracket'>&lt;</span>/h6<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="font-sizes" class="space-top space-bottom">Font sizes</h2>
+        <div class="row">
+            <div class="col-4 background-purple color-white">
+                <p class='font-size-sm'>.font-size-sm</p>
+            </div>
+            <div class="col-4 background-purple color-white">
+                <p class='font-size-md'>.font-size-md</p>
+            </div>
+            <div class="col-4 background-purple color-white">
+                <p class='font-size-lg'>.font-size-lg</p>
+            </div>
+        </div>
+        <div class="row space-top">
+            <div class="col-6 background-purple color-white">
+                <p class='font-size-xl'>.font-size-xl</p>
+            </div>
+            <div class="col-6 background-purple color-white">
+                <p class='font-size-xxl'>.font-size-xxl</p>
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-fonts-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion" data-value="code-fonts-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-purple color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p class='font-size-sm'<span class='bracket'>&gt;</span></span>.font-size-sm<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-purple color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p class='font-size-md'<span class='bracket'>&gt;</span></span>.font-size-md<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-4 background-purple color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p class='font-size-lg'<span class='bracket'>&gt;</span></span>.font-size-lg<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-6 background-purple color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p class='font-size-xl'<span class='bracket'>&gt;</span></span>.font-size-xl<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class="col-6 background-purple color-white"<span class='bracket'>&gt;</span></span>
+                <br />                <span class='bracket-inside'><span class='bracket'>&lt;</span>p class='font-size-xxl'<span class='bracket'>&gt;</span></span>.font-size-xxl<span class='bracket-inside'><span class='bracket'>&lt;</span>/p<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="borders" class="space-top space-bottom">Borders</h2>
+        <div class='row space-top'>
+            <div class='col-10 border background-google-amber color-white'>
+                border
+            </div>
+            <div class='col-10 border-sm background-google-amber color-white'>
+                border-sm
+            </div>
+            <div class='col-10 border-md background-google-amber color-white'>
+                border-md
+            </div>
+            <div class='col-10 border-lg background-google-amber color-white'>
+                border-lg
+            </div>
+            <div class='col-10 border-xl background-google-amber color-white'>
+                border-xl
+            </div>
+            <div class='col-10 border-xxl background-google-amber color-white'>
+                border-xxl
+            </div>
+        </div>
+        <div class='row space-top'>
+            <div class='col-10 border border-smooth-sm background-google-cyan color-white'>
+                border-smooth-sm
+            </div>
+            <div class='col-10 border border-smooth-md background-google-cyan color-white'>
+                border-smooth-md
+            </div>
+            <div class='col-10 border border-smooth-lg background-google-cyan color-white'>
+                border-smooth-lg
+            </div>
+            <div class='col-10 border border-smooth-xl background-google-cyan color-white'>
+                border-smooth-xl
+            </div>
+            <div class='col-10 border border-smooth-xxl background-google-cyan color-white'>
+                border-smooth-xxl
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-borders-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion" data-value="code-borders-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border-sm background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-sm
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border-md background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-md
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border-lg background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-lg
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border-xl background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-xl
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border-xxl background-google-amber color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-xxl
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border border-smooth-sm background-google-cyan color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-smooth-sm
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border border-smooth-md background-google-cyan color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-smooth-md
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border border-smooth-lg background-google-cyan color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-smooth-lg
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border border-smooth-xl background-google-cyan color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-smooth-xl
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 border border-smooth-xxl background-google-cyan color-white'<span class='bracket'>&gt;</span></span>
+                <br />                border-smooth-xxl
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+        <h2 id="shadows" class="space-top space-bottom">Shadows</h2>
+        <div class='row space-top'>
+            <div class='col-10 shadow background-google-indigo color-white'>
+                shadow
+            </div>
+            <div class='col-10 shadow-left background-google-indigo color-white'>
+                shadow-left
+            </div>
+            <div class='col-10 shadow-right background-google-indigo color-white'>
+                shadow-right
+            </div>
+            <div class='col-10 shadow-top background-google-indigo color-white'>
+                shadow-top
+            </div>
+            <div class='col-10 shadow-bottom background-google-indigo color-white'>
+                shadow-bottom
+            </div>
+        </div>
+        <div class='row space-top space-bottom'>
+            <div class='col-10 shadow-top-left background-google-indigo color-white'>
+                shadow-top-left
+            </div>
+            <div class='col-10 shadow-top-right background-google-indigo color-white'>
+                shadow-top-right
+            </div>
+            <div class='col-10 shadow-bottom-left background-google-indigo color-white'>
+                shadow-bottom-left
+            </div>
+            <div class='col-10 shadow-bottom-right background-google-indigo color-white'>
+                shadow-bottom-right
+            </div>
+        </div>
+        <div class="accordion-trigger accordion-blue background-blue space-top" data-target="code-shadows-demo">
+            <span class="accordion-symbol"><i class="fas fa-angle-double-down"></i></span>
+            <h5>Code:</h5>
+        </div>
+        <div class="row accordion" data-value="code-shadows-demo">
+            <code>
+                <!-- // Generated From Michael Brannen's Code To HTML Text Generator \\ -->
+                <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-left background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-left
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-right background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-right
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-top background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-top
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-bottom background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-bottom
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br /><span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-top-left background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-top-left
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-top-right background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-top-right
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-bottom-left background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-bottom-left
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>div class='col-10 shadow-bottom-right background-google-indigo color-white'<span class='bracket'>&gt;</span></span>
+                <br />                shadow-bottom-right
+                <br />            <span class='bracket-inside'><span class='bracket'>&lt;</span>/div<span class='bracket'>&gt;</span></span>
+            </code>
+        </div>
+    </div>
+    <script src="javascript/michaels-framework-script.js"></script>
+</body>
+
+</html>

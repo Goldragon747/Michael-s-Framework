@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto/Roboto-Regular.tff"); }
+.font-size-sm {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  font-size: 8pt; }
+
+.font-size-md {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  font-size: 16pt; }
+
+.font-size-lg {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  font-size: 24pt; }
+
+.font-size-xl {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  font-size: 56pt; }
+
+.font-size-xxl {
+  font-family: Roboto, sans-serif;
+  font-size: 12pt;
+  font-size: 108pt; }
+
+/*# sourceMappingURL=font.css.map */
